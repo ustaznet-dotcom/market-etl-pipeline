@@ -16,7 +16,7 @@ dag = DAG('currency_etl_dag',
           start_date=days_ago(1))
 # Настройка подключения к базе данных ClickHouse
 CH_CLIENT = Client(
-    host='158.160.116.58',  # IP-адрес сервера ClickHouse
+    host='**',  # IP-адрес сервера ClickHouse
     user='student',  # Имя пользователя для подключения
     password='dfqh89fhq8',  # Пароль для подключения
     database='sandbox'  # База данных, к которой подключаемся
